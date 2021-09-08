@@ -1,4 +1,5 @@
 # altbackspace
+## a tool that helps you easily reach specific things
 
 **afer you installed the program you can open it anytime using `alt+backspace`**
 
