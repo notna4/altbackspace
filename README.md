@@ -1,5 +1,10 @@
 # altbackspace
-## a tool that helps you easily reach specific things
+**a tool that helps you easily reach specific things**
+
+## how to install it
+- download the executable file from 'releases' section
+- open it and wait for it to install
+- done!
 
 **afer you installed the program you can open it anytime using `alt+backspace`**
 
@@ -28,3 +33,5 @@
 ![bonus](https://user-images.githubusercontent.com/60224872/132565602-ca55bd9f-0438-40e9-bfcd-201087ab2ffd.gif)
 
 **have fun!**
+
+background image from https://unsplash.com/photos/H3APOiYLyzk
