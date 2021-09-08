@@ -1,0 +1,70 @@
+{
+  "name": "altbackspace",
+  "version": "1.0.0",
+  "description": "It helps you get quickly acces to some stuff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notna4/spot-yt.git"
+  },
+  "author": "Cristian Canceal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notna4/spot-yt/issues"
+  },
+  "homepage": "https://github.com/notna4/spot-yt#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.60",
+    "@electron-forge/maker-deb": "^6.0.0-beta.60",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.60",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.60",
+    "@electron-forge/maker-zip": "^6.0.0-beta.60",
+    "electron": "^14.0.0",
+    "electron-builder": "^22.11.7"
+  },
+  "dependencies": {
+    "auto-launch": "^5.0.5",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.0.0",
+    "youtube-search": "^1.1.6"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "spot"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "build": {
+    "icon": "icon.ico"
+  }
+}
