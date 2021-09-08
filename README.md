@@ -25,8 +25,6 @@
 
 >live example
 
-https://user-images.githubusercontent.com/60224872/132565334-86b232b4-8bac-4536-8d78-4493abf922c8.mp4
-
-
+![bonus](https://user-images.githubusercontent.com/60224872/132565602-ca55bd9f-0438-40e9-bfcd-201087ab2ffd.gif)
 
 **have fun!**
